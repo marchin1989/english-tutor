@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "english-tutor"
+version = "0.1.0"
+description = ""
+authors = ["Masayuki Abe <10809130+marchin1989@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "english_tutor"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
